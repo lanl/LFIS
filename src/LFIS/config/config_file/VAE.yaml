@@ -1,0 +1,5 @@
+nstep: 256
+lr: 2.5e-3
+epoch: 2000
+nsample: 40000
+nbatch: 4000

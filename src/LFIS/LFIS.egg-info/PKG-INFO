@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: LFIS
+Version: 1.0.0
+Summary: Source code for manuscript Liouville Flow Importance Sampler
+Home-page: https://github.com/lanl/LFIS
+Author: lanl
+Author-email: yifengtian@lanl.gov
+Project-URL: Bug Tracker, https://github.com/lanl/LFIS/issues
+License-File: LICENSE
+
+# LFIS
+Repository of the codes developed for the paper titled "Liouville Flow Importance Sampler", which has been accepted by the *41th International Conference on Machine Learning*, Vienna, Austria. 
+
+Upon approval by the Feynman Center for Innovation, we will release the code here. 
+
+
