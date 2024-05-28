@@ -1,5 +1,8 @@
-*/__pycache__*
 *.DS_Store
 __pycache__/
 build/
 src/LFIS.egg-info/*
+src/LFIS/__pycache__/
+src/LFIS/LFIS.egg-info/*
+src/LFIS/*/__pycache__/*
+examples/.ipynb_checkpoints/

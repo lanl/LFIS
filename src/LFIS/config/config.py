@@ -172,32 +172,7 @@ class get_configuration():
         
 if __name__ == '__main__':
     cfg = get_baseconfig()
-#    config = setup_config(cfg, 'MG2D')
     test_config = get_configuration()
     config = test_config.setup_config(cfg, 'LogReg')
-# case_name = 'MG2D_128'
-# device =  'cuda:1'
-# ndim  = 2
-# task = 'train'
-# #################################                                                                                                      
-# mu_prior = torch.tensor([0.0, 0.0])
-# sigma2_prior = torch.eye(2)*5.5**2
-# cfl = None
-# steps = 128
-# dtmax = torch.tensor(1.0/steps)
-
-# ### Setting up the initial distribution and target distribution                                                                        
-# prior = MultiNormDist(ndim,mu_prior, sigma2_prior, device = device )
-# target = MG2D(2, device=device)
-
-
-# ###### Setting up the schedule ##############                                                                                          
-# tt = schedule.CosSchedule()
-
-# ##### Setting up the NN model to parametrize the Liouville flow #####                                                                  
-# flow_model  = model.NN_base(2,64,2)
-
-
-#     return config
     
     
