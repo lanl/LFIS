@@ -173,6 +173,18 @@ class get_configuration():
 if __name__ == '__main__':
     cfg = get_baseconfig()
     test_config = get_configuration()
+    config = test_config.setup_config(cfg, 'MG2D')
+
+    cfg = get_baseconfig()
+    test_config = get_configuration()
+    config = test_config.setup_config(cfg, 'Funnel')
+
+    cfg = get_baseconfig()
+    test_config = get_configuration()
     config = test_config.setup_config(cfg, 'LogReg')
-    
+
+    cfg = get_baseconfig()
+    test_config = get_configuration()
+    config = test_config.setup_config(cfg, 'VAE')
+
     
