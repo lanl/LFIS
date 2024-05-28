@@ -177,7 +177,11 @@ if __name__ == '__main__':
 
     cfg = get_baseconfig()
     test_config = get_configuration()
-    config = test_config.setup_config(cfg, 'Funnel')
+    config = test_config.setup_config(cfg, 'funnel')
+
+    cfg = get_baseconfig()
+    test_config = get_configuration()
+    config = test_config.setup_config(cfg, 'LGCP')
 
     cfg = get_baseconfig()
     test_config = get_configuration()
