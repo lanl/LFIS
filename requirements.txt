@@ -1,0 +1,8 @@
+numpy
+torch >= 2.0.0
+matplotlib
+PyYAML
+python-box
+ml_collections
+pandas
+-e .
