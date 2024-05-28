@@ -1,4 +1,0 @@
-nstep: 256
-lr: 0.001
-epoch: 2000
-nsample: 50000

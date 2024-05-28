@@ -1,6 +1,0 @@
-regcase: ionosphere
-nstep: 256
-lr: 1.0e-3
-epoch: 2000
-nsample: 50000
-nbatch: 5000
