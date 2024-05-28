@@ -1,6 +1,7 @@
 numpy
 torch >= 2.0.0
 matplotlib
+dm-haiku
 PyYAML
 python-box
 ml_collections
