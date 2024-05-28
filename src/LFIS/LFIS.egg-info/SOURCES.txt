@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-LFIS/LFIS.egg-info/PKG-INFO
-LFIS/LFIS.egg-info/SOURCES.txt
-LFIS/LFIS.egg-info/dependency_links.txt
-LFIS/LFIS.egg-info/top_level.txt
