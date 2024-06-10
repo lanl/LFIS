@@ -6,4 +6,5 @@ PyYAML
 python-box
 ml_collections
 pandas
+jupyter
 -e .

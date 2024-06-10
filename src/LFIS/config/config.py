@@ -28,7 +28,7 @@ from LFIS.util.util import read_yaml, LGCP_prior
 def get_baseconfig() -> configdict.ConfigDict:
     config = configdict.ConfigDict()
 
-    config.device = 'cuda:0' ## 'cuda' or' cpu'
+    config.device = 'cuda:1' ## 'cuda' or' cpu'
     config.task = 'train'
     config.problemtype = 'transform'
     
