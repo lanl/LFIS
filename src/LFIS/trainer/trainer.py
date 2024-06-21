@@ -230,7 +230,7 @@ def train_resample(config): #LFmodel, lr = 0.01, cfl = None, dtmax = torch.tenso
 
 def train_withweight_resample(config):
     """
-    Train Liouville flow using IS(weight) and resampling every a few epoches 
+    Train Liouville flow using IS(weight) and resampling every few epoches 
     """
 
     t_init,t_end = torch.tensor(0.0), torch.tensor(1.0)
@@ -285,7 +285,7 @@ def train_withweight_resample(config):
 
           if i%2 == 0:
               xbatch = LFmodel.sample_noweight( nbatch, flowlist, tlist)
-
+          optimizer.zero_grad()
           loss, ploss = LFmodel.comput_eqloss(xbatch, t, RHSmean = RHSmean)
           loss.backward()
 

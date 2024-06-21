@@ -1,4 +1,4 @@
 nstep: 256
-lr: 0.01
+lr: 0.004
 epoch: 2000
 nsample: 200000

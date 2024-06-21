@@ -1,8 +1,3 @@
-
-from copy import deepcopy
-import torch
-from torch.optim import Adam
-
 import os
 import os.path as osp
 import pathlib

@@ -110,6 +110,10 @@ class IndependentLinear(nn.Module):
         # compute the divergence of the flow field
         return torch.sum(self.l1_w)
 
+    def divergence_nograph(self,x):
+        # compute the divergence of the flow field
+        return torch.sum(self.l1_w)
+
 class Linear(nn.Module):
     def __init__(self,ndim):
         super().__init__()
